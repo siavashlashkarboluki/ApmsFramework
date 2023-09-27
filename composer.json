@@ -1,0 +1,14 @@
+{
+    "name": "arkanpardaz/apms",
+    "description": "Arkanpardaz microservice development kit",
+    "autoload": {
+        "psr-4": {
+            "ApmsKit\\Core\\": "classes",
+            "ApmsKit\\Controllers\\": "controllers",
+            "ApmsKit\\Models\\": "models"
+        }
+    },
+  "require": {
+    "ext-mysqli": "*"
+  }
+}

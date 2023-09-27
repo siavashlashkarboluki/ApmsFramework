@@ -1,0 +1,8 @@
+[09/27/2023 - 16:03:48]: (ERROR) mysqli_sql_exception: Unknown database 'rtv' in C:\wamp64\www\roustatv_services\base\classes\DB.php:27
+Stack trace:
+#0 C:\wamp64\www\roustatv_services\base\classes\DB.php(27): mysqli->__construct('localhost:3307', 'root', Object(SensitiveParameterValue), 'rtv')
+#1 C:\wamp64\www\roustatv_services\base\bootstrap.php(9): ApmsKit\Core\DB->createConnection()
+#2 C:\wamp64\www\roustatv_services\base\public\index.php(12): require_once('C:\\wamp64\\www\\r...')
+#3 {main}
+
+
